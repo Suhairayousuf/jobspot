@@ -206,9 +206,9 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             InkWell(
               onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>NavigationBarPage(
-
-                )));
+                // Navigator.push(context, MaterialPageRoute(builder: (context)=>NavigationBarPage(
+                //
+                // )));
               },
               child: Container(width: width*0.7,
                 decoration: BoxDecoration(
